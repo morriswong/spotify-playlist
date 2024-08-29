@@ -12,7 +12,7 @@ This Streamlit app allows you to scrape songs from a Spotify playlist and displa
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/your-username/spotify-playlist.git
+   git clone https://github.com/morriswong/spotify-playlist.git
    ```
 
 2. Navigate to the project directory:
