@@ -1,5 +1,6 @@
-# spotify-playlist
-This script allows you to scrape songs from a Spotify playlist and save them in a CSV file.
+# Spotify Playlist Scraper
+
+This Streamlit app allows you to scrape songs from a Spotify playlist and display them in a table.
 
 ## Prerequisites
 
@@ -11,15 +12,15 @@ This script allows you to scrape songs from a Spotify playlist and save them in 
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/your-username/spotify-playlist-scraper.git
+   git clone https://github.com/your-username/spotify-playlist.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd spotify-playlist-scraper
+   cd spotify-playlist
    ```
 
-3. Create a virtual environment:
+3. Create a virtual environment (optional but recommended):
    - On Windows:
      ```
      python -m venv venv
@@ -44,16 +45,18 @@ This script allows you to scrape songs from a Spotify playlist and save them in 
 
 ## Usage
 
-1. Run the script:
+1. Run the Streamlit app:
    ```
-   python app.py
+   streamlit run app.py
    ```
 
-2. When prompted, enter the Spotify playlist URL.
+2. The app will open in your browser.
 
-3. The script will scrape the songs from the playlist and save them in a CSV file named `playlist.csv` in the project directory.
+3. Enter the Spotify playlist URL in the input field.
 
-4. The CSV file will contain two columns: "Song" and "Artist".
+4. Click the "Scrape Playlist" button.
+
+5. The app will scrape the songs from the playlist, save them in a CSV file named `playlist.csv`, and display the playlist as a table below the input field.
 
 ## Contributing
 
@@ -61,4 +64,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0, See the [LICENSE](LICENSE) file for details.
